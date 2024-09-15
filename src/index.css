@@ -23,6 +23,14 @@
     #573A37 => text-color-secondary
     #F0E8C2 => text-color-on-bg
 */
+#hero-image {
+  height: 25rem;
+}
+
+h1,
+h2 {
+  color: #291b1a;
+}
 
 h1 {
   font-size: 2.5rem;
@@ -34,7 +42,29 @@ h2 {
   line-height: 150%;
 }
 
-p {
+p,
+ul {
   font-size: 1rem;
   line-height: 150%;
+  color: #573a37;
+}
+
+span {
+  color: #f0e8c2;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+li {
+  margin: 0 2rem;
+}
+
+main > ul li {
+  margin: 0;
+  list-style: none;
+}
+
+#icon-heart {
+  margin: 0 0.25rem;
 }
