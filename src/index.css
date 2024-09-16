@@ -23,13 +23,40 @@
     #573A37 => text-color-secondary
     #F0E8C2 => text-color-on-bg
 */
+
+body {
+  background-color: #291b1a;
+}
+
+#conteudo {
+  margin: 3rem auto;
+  position: relative;
+}
+
+article {
+  background-color: #f0e8c2;
+  max-width: 50rem;
+  margin: 0 auto 1.75rem;
+  border-radius: 24px;
+  padding: 1.5rem;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 #hero-image {
   height: 25rem;
+  margin: 0 auto;
+  border-radius: 16px;
 }
 
 h1,
 h2 {
   color: #291b1a;
+  margin: 0.25rem 0;
 }
 
 h1 {
@@ -47,6 +74,7 @@ ul {
   font-size: 1rem;
   line-height: 150%;
   color: #573a37;
+  margin-bottom: 0.75rem;
 }
 
 span {
@@ -60,11 +88,15 @@ li {
   margin: 0 2rem;
 }
 
-main > ul li {
+#descricao li {
   margin: 0;
   list-style: none;
 }
 
 #icon-heart {
   margin: 0 0.25rem;
+}
+
+section {
+  margin: 1.5rem 0;
 }
